@@ -1,6 +1,5 @@
-// Public browser settings only. Supabase anon/publishable key is designed for browser use;
-// never place SUPABASE_SERVICE_ROLE_KEY or BOT_TOKEN here.
+// Public browser settings only.
 window.SIMON_CONFIG = {
-  SUPABASE_URL: '',
-  SUPABASE_ANON_KEY: ''
-};
+  SUPABASE_URL: 'https://bkjzstohtlyywnltemls.supabase.co',
+  SUPABASE_ANON_KEY: 'sb_publishable_bfAh45u5tDFDWT4wNAxkCQ_3bOv-owU'
+};    
