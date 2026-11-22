@@ -1,0 +1,12 @@
+{
+  "name": "simon-rp-pages-supabase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Telegram Mini App frontend with Supabase Edge Functions",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

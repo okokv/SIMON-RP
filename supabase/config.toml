@@ -1,0 +1,7 @@
+project_id = "simon-rp"
+
+[functions.simon-api]
+verify_jwt = false
+
+[functions.telegram-webhook]
+verify_jwt = false

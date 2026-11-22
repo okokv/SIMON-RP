@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10101a">
+  <meta name="description" content="SIMON RP — личный кабинет персонажа для Brookhaven RP">
+  <title>SIMON RP</title>
+  <link rel="stylesheet" href="./assets/app.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./config.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header><div class="brand"><span class="logo">S</span><div><b>SIMON RP</b><small id="greeting">Твой мир. Твоя история.</small></div></div><button class="avatar" id="userBadge" aria-label="Профиль">RP</button></header>
+    <div class="layout">
+      <nav id="nav" aria-label="Разделы SIMON RP">
+        <button class="active" data-view="home">⌂<span>Главная</span></button>
+        <button data-view="characters">♙<span>Персонажи</span></button>
+        <button data-view="documents">▤<span>Документы</span></button>
+        <button data-view="transport">▰<span>Транспорт</span></button>
+        <button data-view="work">⚒<span>Работа</span></button>
+        <button data-view="assets">⌂<span>Имущество</span></button>
+        <button data-view="bank">₽<span>Баланс</span></button>
+        <button data-view="family">♧<span>Семья</span></button>
+        <button data-view="server">↗<span>Сервер</span></button>
+        <button data-view="stats">☆<span>Статистика</span></button>
+        <button data-view="notifications">♧<span>Уведомления</span></button>
+        <button data-view="faq">ⓘ<span>Правила</span></button>
+        <button data-view="admin" id="adminNav" hidden>⚙<span>Админ</span></button>
+      </nav>
+      <main><div id="app"><div class="loading">Загружаем SIMON RP…</div></div></main>
+    </div>
+    <footer>SIMON RP <span>• Brookhaven RP</span></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
